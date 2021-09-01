@@ -1,0 +1,243 @@
+Navigating the File System
+
+ 1.  How do you move back and forth between directories?
+
+ cd & cd ..
+
+ 2.  How do you create and delete files?
+
+ touch file_name.tx & rm file_name
+
+ 3.  How do you create and delete directories?
+
+ mkdir & rmdir
+
+ 4.  How can I see exactly where I am within the filesystem?
+
+ pwd
+
+ 5.  How can I see the files and directories within the current directory that I am in?
+
+ ls
+
+
+Git
+
+1.  How do you let git know you want to track changes made in a directory?
+
+ git init
+
+2.  How do you tell git that you like the work you’ve done and want it to be a part of a chunk of work to be saved?
+
+ git add .
+
+3.  How do you tell git you want to save a chunk of work?
+
+ git commit -m "quiz"
+
+4.  How do you tell git where to push your local changes up to a online repository?
+
+ git push
+
+5.  How can you safely work on a different version of your current project?
+
+ creating a new branch off the main branch. git branch new_branch
+
+6.  How can you make that different version become a part of your main version
+
+ git merge branch_a
+
+7.  How do I move between versions of my project?
+
+ git checkout my_branch
+
+8.  How can I go back to previous chunks of work that I’ve created and work from that point in time?
+
+git fetch 
+
+9. Let’s say I wrote a bad message for a commit. How could I change it? 
+
+ creater a new branch and merge them toger.
+
+
+
+ Python
+
+1.  How do I run my code from the terminal?
+
+create a repo and track the repo. python file_name.py
+
+2.  What can I use to reference a value later in my code?
+
+A Variable
+
+3.  How can I make my program display text or some value in my terminal?
+
+print("hello")
+
+4.  How can I make my code make decisions on which code to execute?
+
+Making If statements.
+
+family = ["Raul", "Ligia", "Maria"]  
+friend = ["Kyle", "Jonny", "Danny"] 
+
+
+user_name = input("Enter your name:")
+if user_name in family:
+    print("Hello, Family!")
+
+elif user_name in friend:
+     print("Hello, Friends") 
+
+else:
+    print("Idon't know you.")
+
+
+5.  How can I repeat blocks of code based on conditions?
+
+Loops 
+count = 0
+MAX = 10
+while (count <Max):
+    print(count)
+    count += 1
+
+
+
+6.  Why is it critical to ensure that our conditions eventually become false when repeating blocks of code?
+
+Because the loop will terminate and it goes to other statement following the while loop.
+
+7.  What are sequences and what are the differences between them?
+
+Sequence are data that can be store multiple and individual values.List are mutual sequences, tuples are immutable sequences and range are list of numeric values.
+
+8.  How do I access a value within the various types of sequences?
+
+Using index 
+
+first_item = todo[0
+second_item = todo[1]]
+
+
+9.  What is an index when talking about sequences?
+
+Values in a single list.
+
+10. What is the index of the first value within a sequence?
+
+0
+
+11. How can I add or remove a value from a sequence?
+
+.appen() & .extend() & del
+
+12. What is the index of the last value within a sequence?
+
+-1
+
+13. How can I get the length of a sequence?
+
+len()
+
+14. What can I use to reference and use a block of code later in my code?
+
+create a dictionary 
+
+15. What is DRY?
+
+Don't repeat yourself
+
+16. What is Scope? Provide an example.
+
+code block
+
+17. What is the difference between parameters and arguments?
+
+parameters is what is defining the file name and arguments are what represent the parameters
+
+18. What is recursion?
+
+Function that is defined in terms of itself.
+
+19. How can you return a value from a function?
+
+include a return statement, followed by value returned.
+def add(a, b):
+
+return a + b
+
+20. Describe a dictionary. How and why would it be useful?
+
+Creates mapping and useful for representing information as records
+
+friend_info = {
+    "Name": "Alan Turing",
+    "Cell": "6017576",
+    "Birthday": "June 23",
+}
+
+21. How can you remove a value from a dictionary?
+
+Use del 
+
+superhero = {
+    "name": "Wonder Woman",
+    "alias": "Diana Prince",
+    "gear": [
+        "Lasso of Truth",
+        "Bracelets of Submission"
+    ],
+    "vehicle": {
+        "title": "Invisible Jet",
+        "speed": "2000 mph",
+    }
+}
+
+del superhero["vehicle"]
+print("No vehicle. It's in the shop.")
+
+22. How can you access and change values within a dictionary?
+
+a_dictionary = {"a": 1, "b": 2}
+a_dictionary["b"] = 3.
+print(a_dictionary)
+
+23. What data types can a sequence hold?
+
+strings, list, tuples, ranges
+
+24. What data types can a dictionary hold?
+
+key value pairs
+
+25. How can you iterate through a dictionary?
+
+
+26. What is object oriented programming?
+
+OOP- structuring program by bundling related properties and behaviors into individual objects.
+
+27. Describe a class? Why are they useful?
+
+They have a dedicated purpose. functions that describe what instances of that class can do.
+
+28. What are class properties? How would I give a class an initial set of properties?
+
+provides an interface to instance attributes.
+
+cujo = Pet()
+benji = Pet()
+
+29. What are class methods?
+
+Functions that describe what instance of that class can do.
+
+30. What is inheritence?
+
+specialized classes
+
+31.  What are the various data types?
+
+numbers, tuple, list, strings, dictionary
